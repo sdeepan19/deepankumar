@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepan Kumar S - Portfolio</title>
+    <title>S Deepan Kumar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Deepan Kumar S</h1>
-        <p>AI & Cybersecurity Enthusiast | Robotics Developer</p>
+        <h1>S Deepan Kumar</h1>
+        <p>AI & Cybersecurity Enthusiast</p>
     </header>
     
     <nav>
@@ -17,6 +17,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -53,15 +54,42 @@
         </ul>
     </section>
     
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Certified in AI & Machine Learning</li>
+            <li>Cybersecurity Fundamentals Certification</li>
+            <li>Robotics Engineering Workshop Certificate</li>
+            <li>Deep Learning Specialization (Coursera)</li>
+        </ul>
+    </section>
+    
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: deepankumar@example.com</p>
+        <p>Email: <a href="mailto:sk2718@srmist.edu.in">sk2718@srmist.edu.in</a></p>
         <p>GitHub: <a href="https://github.com/sdeepan19" target="_blank">github.com/sdeepan19</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/s-deepan-kumar-5b2016326" target="_blank">linkedin.com/in/s-deepan-kumar-5b2016326</a></p>
+        
+        <h3>Resume</h3>
+        <p><a href="resume.pdf" download>Download My Resume (PDF)</a></p>
+        
+        <h3>Send Me a Message</h3>
+        <form action="mailto:sk2718@srmist.edu.in" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
     </section>
     
     <footer>
-        <p>&copy; 2025 Deepan Kumar S. All rights reserved.</p>
+        <p>&copy; 2025 S Deepan Kumar. All rights reserved.</p>
     </footer>
     
     <style>
@@ -104,6 +132,26 @@
             border-radius: 8px;
             width: 80%;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            margin: auto;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form input[type="submit"] {
+            background: #333;
+            color: white;
+            cursor: pointer;
+            border: none;
         }
         footer {
             background: #333;
