@@ -56,8 +56,8 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: deepankumar@example.com</p>
-        <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername">linkedin.com/in/yourusername</a></p>
+        <p>GitHub: <a href="https://github.com/sdeepan19" target="_blank">github.com/sdeepan19</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/s-deepan-kumar-5b2016326" target="_blank">linkedin.com/in/s-deepan-kumar-5b2016326</a></p>
     </section>
     
     <footer>
