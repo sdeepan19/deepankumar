@@ -33,23 +33,12 @@
             <h3>AI Emergency Response System</h3>
             <p>Multi-purpose AI for handling emergencies efficiently.</p>
         </div>
-        <div class="project-card">
-            <h3>Accident Detection System</h3>
-            <p>Automatic accident detection with emergency call system.</p>
-        </div>
-        <div class="project-card">
-            <h3>Cybersecurity Threat Detection</h3>
-            <p>AI-driven system to identify and mitigate cyber threats.</p>
-        </div>
     </section>
     
     <section id="skills">
         <h2>Skills & Certifications</h2>
         <ul>
             <li>Python</li>
-            <li>Machine Learning & AI</li>
-            <li>Cybersecurity</li>
-            <li>Robotics</li>
             <li>Web Development</li>
         </ul>
     </section>
@@ -57,10 +46,7 @@
     <section id="certifications">
         <h2>Certifications</h2>
         <ul>
-            <li>Certified in AI & Machine Learning</li>
             <li>Cybersecurity Fundamentals Certification</li>
-            <li>Robotics Engineering Workshop Certificate</li>
-            <li>Deep Learning Specialization (Coursera)</li>
         </ul>
     </section>
     
